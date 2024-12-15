@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvSelectedAc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Điều khiển điều hòa"
+        android:paddingBottom="16dp" />
+
+    <!-- Nút Quay lại -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Hiển thị nhiệt độ hiện tại -->
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Nhiệt độ: 24°C"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp" />
+
+    <!-- Nút điều chỉnh nhiệt độ -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnDecreaseTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btnIncreaseTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+    </LinearLayout>
+
+    <!-- Nút bật/tắt điều hòa -->
+    <Button
+        android:id="@+id/btnPowerOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bật điều hòa" />
+
+    <Button
+        android:id="@+id/btnPowerOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tắt điều hòa"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn phương pháp kết nối"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnConnectWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết nối qua WiFi"
+        android:marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnConnectBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết nối qua Bluetooth"/>
+</LinearLayout>

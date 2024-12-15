@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hướng dẫn sẽ hiển thị ở đây"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnLearnPowerOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Học lệnh Bật"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnLearnPowerOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Học lệnh Tắt"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnLearnTempUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Học lệnh Tăng Nhiệt Độ"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnLearnTempDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Học lệnh Giảm Nhiệt Độ"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoàn tất"
+        android:visibility="gone"
+        android:padding="8dp"/>
+
+</LinearLayout>
